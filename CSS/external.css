@@ -3,8 +3,11 @@
   color: white;
   background-color: black;
   padding: 1em;
+  width:100%
 }
 .top img{
+  width:100px;
+  height: 100px;
   float: right;
   margin-left: 1%;
 }
@@ -13,6 +16,16 @@
   color: white;
   background-color: black;
   padding: 1em;
+  width:100%
+}
+.marvel img{
+  width:400px;
+}
+.actress img{
+  width: 400px;
+}
+.other img{
+  width:400px;
 }
 .marvel img:hover{
   border-radius: 10%;
@@ -22,11 +35,20 @@
   border-radius: 10%;
   border-style: groove;
 }
-@media  only screen and (min-width=750px) and (max-width=1050px) {
+@media  only screen and (min-width=750px) and (max-width=1250px) {
   .page{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+  }
+  .marvel img{
+    width:400px;
+  }
+  .actress img{
+    width: 400px;
+  }
+  .other img{
+    width:400px;
   }
 }
 @media  only screen and (min-width=420px) and (max-width=750px) {
@@ -35,11 +57,34 @@
     flex-wrap: wrap;
     flex-direction: row;
   }
+  .marvel img{
+    width:400px;
+  }
+  .actress img{
+    width: 400px;
+  }
+  .other img{
+    width:400px;
+  }
 }
-@media  only screen and (min-width=420px) and (max-width=750px) {
+@media  only screen and (max-width=420px) {
   .page{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
   }
+  .marvel img{
+    width:350px;
+  }
+  .actress img{
+    width: 350px;
+  }
+  .other img{
+    width:350px;
+  }
+}
+.page{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
