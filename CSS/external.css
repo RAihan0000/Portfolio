@@ -1,0 +1,45 @@
+.top{
+  font-size: 30px;
+  color: white;
+  background-color: black;
+  padding: 1em;
+}
+.top img{
+  float: right;
+  margin-left: 1%;
+}
+.bottom{
+  font-size: 30px;
+  color: white;
+  background-color: black;
+  padding: 1em;
+}
+.marvel img:hover{
+  border-radius: 10%;
+  border-style: groove;
+}
+.actress img:hover{
+  border-radius: 10%;
+  border-style: groove;
+}
+@media  only screen and (min-width=750px) and (max-width=1050px) {
+  .page{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
+@media  only screen and (min-width=420px) and (max-width=750px) {
+  .page{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
+@media  only screen and (min-width=420px) and (max-width=750px) {
+  .page{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
